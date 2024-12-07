@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实践周专题</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink; /* 自定义背景颜色 */
+            color: #333;
+        }
+
+        #navbar {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #navbar .logo {
+            margin-left: 20px;
+        }
+
+        #navbar .nav-buttons {
+            margin-right: 20px;
+        }
+
+        .nav-buttons button {
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .nav-buttons button:hover {
+            background-color: #0056b3;
+        }
+
+        #main-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .image-container {
+            flex: 1;
+            min-width: calc(33.333% - 20px);
+            max-width: 400px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .image-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .image-container h3 {
+            margin: 10px 0;
+            color: #007BFF;
+        }
+
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div class="logo">我眼中的网络与新媒体</div>
+        <div class="nav-buttons">
+            <button onclick="location.href='file:///D:/%E5%8A%9E%E5%85%AC/site/%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A%E4%B8%89.html'">首页</button>
+            <button onclick="location.href='https://towowaka.github.io/second/%E5%AE%9E%E8%B7%B53.html'">作品展示</button>
+        </div>
+    </div>
+
+    <div id="main-content">
+        <div class="image-container">
+        <a href="https://towowaka.github.io/second/%E5%AE%9E%E8%B7%B51.html">
+          <img src="https://ts1.cn.mm.bing.net/th/id/R-C.82ec7b4e063ad6d127eebf934138d0f7?rik=iKzWyIxmcwFAPw&riu=http%3a%2f%2fwww.dvbcn.com%2fwp-content%2fuploads%2f2019%2f08%2fe1487ea6eb38af21b626c5d2140f96b3.png&ehk=%2b62e4aHMlVugoRjfHr26UxpBl9pO9f4QVrWEIwhy3rM%3d&risl=&pid=ImgRaw&r=0" alt="1" >
+            <h3>什么是网络与新媒体？</h3>
+            <p>点击图片查看</p>
+        </div>
+        <div class="image-container">
+         <a href="https://towowaka.github.io/second/%E5%AE%9E%E8%B7%B52.html">
+            <img src="https://copyright.bdstatic.com/vcg/creative/c6cd9c599a83e9ff657849f942280709.jpg@wm_1,k_cGljX2JqaHdhdGVyLmpwZw==" alt="2" width="101%" height="315" >
+            <h3>网络与新媒体前景如何？</h3>
+            <p>点击图片查看</p>
+      </div>
+        <!-- 更多图片可以按照上面的格式添加 -->
+    </div>
+
+    <footer id="footer">
+        <p>版权所有 &copy; 2024 实践周专题</p>
+    </footer>
+</body>
+</html>
