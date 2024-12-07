@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实践周专题</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink; /* 自定义背景颜色 */
+            color: #333;
+        }
+
+        #navbar {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #navbar .logo {
+            margin-left: 20px;
+        }
+
+        #navbar .nav-buttons {
+            margin-right: 20px;
+        }
+
+        .nav-buttons button {
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .nav-buttons button:hover {
+            background-color: #0056b3;
+        }
+
+        #main-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .image-container {
+            flex: 1;
+            min-width: calc(33.333% - 20px);
+            max-width: 400px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .image-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .image-container h3 {
+            margin: 10px 0;
+            color: #007BFF;
+        }
+
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div class="logo">我眼中的网络与新媒体</div>
+        <div class="nav-buttons">
+            <button onclick="location.href='file:///D:/%E5%8A%9E%E5%85%AC/site/trash.html'">首页</button>
+            <button onclick="location.href='file:///D:/%E5%8A%9E%E5%85%AC/site/%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A%E4%B8%89%E6%8F%92%E5%85%A53.html'">作品展示</button>
+        </div>
+    </div>
+
+    <div id="main-content">
+        <div class="image-container">
+            <img src="https://copyright.bdstatic.com/vcg/creative/c6cd9c599a83e9ff657849f942280709.jpg@wm_1,k_cGljX2JqaHdhdGVyLmpwZw==" alt="2" >
+            <h3>网络与新媒体前景如何？</h3>
+            <p>可从事网络新闻宣传、信息传播、网络编辑、舆论分析、媒介内容生产等相关岗位，例如编辑、网络运营专员/助理、互联网产品经理、文案策划、广播电视编导等。
+
+该专业主要课程有：《传播学原理》《新媒体概论》《网络传播》《传播统计学》《新媒体技术与运用》。
+
+该专业考研方向有：马克思主义理论、法律（非法学）、学科教学（语文）、应用心理等。</p>
+        </div>
+       
+        <!-- 更多图片可以按照上面的格式添加 -->
+    </div>
+
+    <footer id="footer">
+        <p>版权所有 &copy; 2024 实践周专题</p>
+    </footer>
+</body>
+</html>
